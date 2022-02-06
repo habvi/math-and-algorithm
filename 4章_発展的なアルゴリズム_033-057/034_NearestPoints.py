@@ -10,3 +10,12 @@ for i, (x, y) in enumerate(xy):
     for j in range(i + 1, n):
         ans = min(ans, dist_two_points(x, y, xy[j][0], xy[j][1]))
 print(ans)
+
+
+
+# faster
+# X, Y = [], []
+# for _ in range(n):
+#     x, y = map(int, input().split())
+#     X.append(x)
+#     Y.append(y)
